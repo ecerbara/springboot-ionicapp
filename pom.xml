@@ -4,27 +4,27 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>bootwildfly</groupId>
-	<artifactId>bootwildfly-testionic</artifactId>
+	<artifactId>bootwildfly</artifactId>
 	<version>1.0</version>
-	<name>bootwildfly-testionic</name>
 
 	<packaging>war</packaging>
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.4.RELEASE</version>
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent -->
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-parent</artifactId>
+	    <version>1.4.4.RELEASE</version>
 	</parent>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<exclusions>
+			<!-- <exclusions>
 				<exclusion>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-starter-tomcat</artifactId>
 				</exclusion>
-			</exclusions>
+			</exclusions> -->
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
